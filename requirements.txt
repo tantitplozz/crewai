@@ -1,0 +1,56 @@
+# Core Dependencies
+crewai==0.1.0
+playwright==1.40.0
+asyncio==3.4.3
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+
+# HTTP Client
+aiohttp==3.9.1
+httpx==0.25.2
+
+# Database
+motor==3.3.2
+pymongo==4.6.0
+redis==5.0.1
+
+# Data Processing
+pydantic==2.5.0
+python-dotenv==1.0.0
+python-multipart==0.0.6
+
+# Logging & Monitoring
+loguru==0.7.2
+structlog==23.2.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+click==8.1.7
+
+# Testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+
+# Development (optional)
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Additional for browser automation
+undetected-chromedriver==3.5.4
+selenium-wire==5.1.0
+
+# Image processing (for screenshots)
+Pillow==10.1.0
+
+# Telegram bot
+python-telegram-bot==20.7
+
+# JSON handling
+orjson==3.9.10
